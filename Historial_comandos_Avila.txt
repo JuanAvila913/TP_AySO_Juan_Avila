@@ -156,3 +156,11 @@ git commit -m "ADD: Añadiendo script"
 git push
 history -a
 cat $HOME/.bash_history
+cp ~/.bash_history ./Historial_comandos_Avila.txt
+git add .
+git commit -m "ADD: Historial de comandos de apellido"
+git push
+ls -l historial_comados_Avila.txt
+history-a
+history -a
+p ~/.bash_history ./Historial_comandos_Avila.txt
